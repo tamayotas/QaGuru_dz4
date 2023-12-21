@@ -57,7 +57,7 @@ def test_random_list():
     """
     # TODO создайте список
     l = random.sample(range(101),10)
-
+    l.sort()
     assert len(l) == 10
     assert l[0] < l [-1]
 
